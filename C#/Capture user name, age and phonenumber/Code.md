@@ -7,28 +7,26 @@
 
 ```
 
-using System;
-using System.Net.Security;
 
 class Program
 {
     static void Main()
     {
         // Ask for name
-        Console.Write("What is your Name");
+        Console.Write("What is your Name ");
         string name = Console.ReadLine();
 
         //  Ask mobilenumber
-        Console.Write("What is your Phonenumber");
+        Console.Write("What is your Phonenumber ");
         string mobileNumber = Console.ReadLine();
 
         // Ask SSN
-        Console.Write("What is your Social Security number, 12 digits");
+        Console.Write("What is your Social Security number, 12 digits ");
         string ssn = Console.ReadLine();
         // Check if SSN is legit
         if (ssn.Length != 12)
         {
-            Console.WriteLine("not correct ssn lenght");
+            Console.WriteLine("not correct ssn lenght ");
             return;
         }
 
@@ -50,19 +48,20 @@ class Program
 
         // Write Result
         if (isAliveToday) {
-            Console.WriteLine("Hello" + name);
+            Console.WriteLine("Hello " + name);
             Console.WriteLine("Your age today is " + myAgeToday);
             Console.WriteLine("YOur age in 25 years will be " + yearIn25Years);
-            Console.WriteLine("If you want we can send this info to you on" + mobileNumber);
+            Console.WriteLine("If you want we can send this info to you on " + mobileNumber);
         }
         else
         {
-            Console.WriteLine("Hello" + name);
-            Console.WriteLine("You are not alive");
+            Console.WriteLine("Hello " + name);
+            Console.WriteLine("You are not alive ");
 
         }
     }
 }
+
 
 
 ```
