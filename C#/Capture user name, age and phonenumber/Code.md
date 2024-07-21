@@ -2,6 +2,7 @@
 // Persons name, age, phonenumber and if they are alive the applications should say that they are not alive
 // Name, age and phonenumber shall be captured by the user input.
 
+```
 
 using System;
 using System.Net.Security;
@@ -61,5 +62,5 @@ class Program
 }
 
 
-
+```
 
